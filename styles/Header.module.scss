@@ -1,4 +1,4 @@
-header{
+header {
     div.title {
         width: 100%;
         text-align: center;
@@ -14,7 +14,7 @@ header{
         justify-content: center;
         
         a {
-            width: 100px;
+            min-width: 50px;
             text-align: center;
         }
         a.active{
