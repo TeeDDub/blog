@@ -4,17 +4,17 @@ import style from "@/styles/Container.module.scss";
 
 const Container = function(props:any) {
     return (
-      <div className={style.container}>
+      <div className={style.container + ` w-full`}>
         <Head>
           <title>Minhyeok.me</title>
         </Head>
-        <header>
+        <header className={`w-full flex justify-center items-center`}>
             <Header/>
         </header>
-        <main>
+        <main className={`w-full md:w-10/12 mx-auto`}>
             {props.children}
         </main>
-        <footer>
+        <footer className={`w-full`}>
             footer
         </footer>
       </div>

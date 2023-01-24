@@ -6,7 +6,7 @@ const Header = function(){
     const router = useRouter();
 
     return (
-    <div className={style.header}>
+    <div className={style.header + ` w-full `}>
         <div className={style.title}>
             <h1>{title}</h1>
         </div>
