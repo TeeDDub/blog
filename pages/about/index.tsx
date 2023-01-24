@@ -4,6 +4,7 @@ export default function Home() {
   return (
     <Container>
       <h1>About</h1>
+      <p></p>
     </Container>
   )
 }
