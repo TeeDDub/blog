@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Header from "./Header";
-import style from "./Container.module.scss";
+import style from "@/styles/Container.module.scss";
 
 const Container = function(props:any) {
     return (
