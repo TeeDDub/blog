@@ -11,10 +11,10 @@ const Container = function(props:any) {
         <header className={`w-full flex justify-center items-center`}>
             <Header/>
         </header>
-        <main className={`w-full md:w-10/12 mx-auto`}>
+        <main className={`w-full mx-2 md:w-10/12 md:mx-auto`}>
             {props.children}
         </main>
-        <footer className={`w-full`}>
+        <footer className={`w-full mx-2`}>
             footer
         </footer>
       </div>
